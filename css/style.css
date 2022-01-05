@@ -1,0 +1,151 @@
+body{
+	background-color: #b3c3f7;
+}
+.header{
+	background-color: #b3c3f7;
+	border-radius: 8px;
+	width: 1009px;
+	height: 180px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header .header-left{
+	float: left;
+	padding: 5px 5px 5px 5px;
+}
+.header .header-right{
+	background-color: #b3c3f7;
+	border-radius: 8px;
+	width: 300px;
+	color: darkblue;
+	text-align: right;
+	float: right;
+	padding: 5px 5px 5px 5px;
+}
+.header .header-right a{
+	text-decoration: none;
+	color: darkblue;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	background-color: white;
+	width: 1008px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.container-left{
+	display: block;
+	background-color: #b3c3f7;
+	width: 504px;
+	height: 35px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-bottom: 4px solid darkblue;
+}
+.container-left ul{
+	list-style: none;
+
+}
+.container-left ul li{
+
+	background-color: blue;
+	width: 252px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	float: left;
+	color: white;
+	font-size: 17px;
+	position: relative;
+	cursor: pointer;
+	z-index:9999;
+}
+.container-left ul li:hover{
+	background-color: darkblue;
+}
+.container-left ul li a{
+	text-decoration: none;
+	color: white;
+}
+.container-left ul ul{
+	display: none;
+}
+.container-left ul li:hover > ul{
+	display: block;
+}
+.container-left ul ul ul{
+
+	margin-left: 250px;
+	top: 10px;
+	position: absolute;
+	
+}
+.container-left ul ul ul li{
+	width: 300px;
+	height: 35px;
+	clear: both;
+}
+
+
+.container-right{
+	background-color: #b3c3f7;
+	width: 504px;
+	height: 35px;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-bottom: 4px solid darkblue;
+}
+.container-right ul{
+	list-style: none;
+
+}
+.container-right ul li{
+
+	background-color: blue;
+	width: 252px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive;
+	float: left;
+	color: white;
+	font-size: 17px;
+	position: relative;
+	cursor: pointer;
+	z-index:9999;
+}
+.container-right ul li:hover{
+	background-color: darkblue;
+}
+.container-right ul li a{
+	text-decoration: none;
+	color: white;
+}
+.container-right ul ul{
+	display: none;
+}
+.container-right ul li:hover > ul{
+	display: block;
+}
+.container-right ul ul ul{
+
+	margin-left: 250px;
+	top: 10px;
+	position: absolute;
+	right: 250px;
+	
+}
+.container-right ul ul ul li{
+	width: 300px;
+	height: 35px;
+	clear: both;
+}
